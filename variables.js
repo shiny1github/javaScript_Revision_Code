@@ -75,11 +75,6 @@ console.log(a); // undefined
 var a=10; //ReferenceError: a is not defined
 */
 
-
-
-
-
-
 // *************LET KEYWORD*********/
 
 //the scope of let is only block scoped. It can't be accesible outside the particular block "({block})".
@@ -104,8 +99,6 @@ f();
 //console.log(b); //o/p -ReferenceError: b is not defined
 console.log(a); // o/p-shivani
 2*/
-
-
 
 
 /*3
@@ -317,12 +310,7 @@ console.log(a);
 */
 
 // we can declare the  variable with the same name in different blocks using the let
-/*let num=90;
-if(true){
-    let num=45;
-    console.log(num);
-}
-console.log(num);*/
+
 /*
 let num=90;
 function f(){
@@ -337,6 +325,7 @@ console.log(num);
 console.log(a);//ReferenceError: a is not defined
 let a=20; //ReferenceError: Cannot access 'a' before initialization
 */
+//#######################$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 // var vs let with 'if block' and 'function' 
 /*var value=50;
@@ -362,6 +351,7 @@ function f(){
 f();
 console.log(value); //20 50 50
 */
+//#######################$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 //******************* Const ************************** */
 
@@ -377,26 +367,120 @@ const pi ;
 console.log(pi); //SyntaxError: Missing initializer in const declaration
 */
 
+//**************************************************** */
+//**************************************** Date - 24\06\2022 *******************************************************
+//variables
+//variable in outside the function
+// var num = 1280;
+// function fun(){
+//     console.log(num);
+
+// }
+// fun();
+// console.log(num);
+//************************************ */
+//variable inside the function
+// function f(){
+//     var num = 1220;
+//     console.log(num);
+// }
+// f();
+// console.log(num); //ReferenceError: num is not defined
+//************************************ */
+//re-declear variable using var
+// var name="shiny sharma";
+// var name="shivani suman";
+// name="shivani"
+// console.log(name);
+//************************************ */
+// console.log(a);//ReferenceError: a is not defined
+// var a=5;// undefined
 
 
+// *************LET KEYWORD*********/
+
+//the scope of let is only block scoped. It can't be accesible outside the particular block "({block})".
+//outside the function
+// let num =32;
+// function f(){
+//     console.log(num);
+// }
+// f();
+// console.log(num);
+//******************************************** */
+
+// inside the function
+// function f(){
+//     let num =14;
+//     console.log(num);
+// }
+// f();
+// console.log(num);//ReferenceError: num is not defined
+//***************************************** */
+
+// re-declare using let
+// let name ="neha";
+// //let name ="sneha"//SyntaxError: Identifier 'name' has already been declared
+// name ="shiny"
+// console.log(name);
+//********************************************* */
+// we can declare the  variable with the same name in different blocks using the let
+// let FNumbers=5;
+// if(true){
+//     let FNumbers=25
+//     console.log(FNumbers);
+// }
+// console.log(FNumbers);
+//********************************************* */
+
+//#######################$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+// 'var' vs 'let' with 'if() block' and 'function' 
+// var  num =12;
+// if(true){
+//     var num=200;
+//     console.log(num);
+// }
+// function f (){
+//     console.log(num);
+// }
+// f();
+// console.log(num);
+
+
+// let  num =12;
+// if(true){
+//     let num=200;
+//     console.log(num);
+// }
+
+// function f (){
+//     console.log(num);
+// }
+// f();
+// console.log(num);
+//#######################$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+//******************* Const ************************** */
+// const lambda
+// console.log(lambda); //SyntaxError: Missing initializer in const declaration
+
+//****************************************** */
+// const lambda = 0.688;
+// //const lambda= 41; //SyntaxError: Identifier 'lambda' has already been declared
+// lambda=50;
+// console.log(lambda); //TypeError: Assignment to constant variable
 
 //*************************** CHALLENGE BY THAPA *********************************************************************************** */
 //CHALLENGE 1
 //Naming convention
+//var _myName ="shivani"; //_ allow
+//var _1my__Name="suman";// after _ number allow
+//var 1myName="shiny"; //SyntaxError: Invalid or unexpected token
+// var $myName="anshu"
+// console.log($myName); //$ allows but not allowed any special symbols
 
-/*
-var _myName ="shivani";//_ allow
-console.log(_myName);
 
-var _1my__Name ="shiny";// after _ number allow
-console.log(_1my__Name);
-
-var 1myName="suman"; // first number not allow
-console.log(1myName);
-
-var $myName="shiavni suman"; //$ allow
-console.log($myName);
-*/
 
      
      
