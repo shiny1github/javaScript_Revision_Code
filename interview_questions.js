@@ -29,4 +29,23 @@
 // else
 // console.log("OTP Send");
 //********************************** QUESTION NUMBER -3 ************************************************************************ */
+
+//Difference b/w  == VS === ?
+
+// var a= 4;
+// var b="4";
+// console.log(a==b); // true // it checks only equality
+// console.log(typeof(a));
+// console.log(typeof(b));
+
+// var a= 4;
+// var b="4";
+// console.log(a===b); // false  // it checks both equality and datatype
+// console.log(typeof(a));
+// console.log(typeof(b));
+
+//********************************** QUESTION NUMBER -4 ************************************************************************ */
+
+
+
  
