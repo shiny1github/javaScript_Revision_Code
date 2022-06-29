@@ -471,14 +471,120 @@ console.log(pi); //SyntaxError: Missing initializer in const declaration
 // lambda=50;
 // console.log(lambda); //TypeError: Assignment to constant variable
 
-//*************************** CHALLENGE BY THAPA *********************************************************************************** */
-//CHALLENGE 1
+
+
+//**************************************** Date - 29\06\2022 *******************************************************
+    // variables - var , let , const
+    //****************** Var ************************************ */
+    //variable in outside the function**********************************
+//     var val=276;
+//     function f(){
+//         var val=34;
+//         console.log(val); // 34
+//     }
+//    console.log(val); //276
+//    f()
+
+//variable inside the function****************************************
+//    function inside(){
+//        var inValue=40;
+//        console.log(inValue);// 40
+//    }
+//    inside()
+//console.log(inValue); //ReferenceError: inValue is not defined
+//re-declear variable using var***************************************
+// var A=20;
+// var A=50;
+// A=30
+// console.log(A);
+//before initalize****************************************************
+//  console.log(a); //ReferenceError: a is not defined
+//  a=24;
+//  var a; // undefined
+
+// *************LET KEYWORD*********/
+
+//the scope of let is only block scoped. It can't be accesible outside the particular block "({block})".
+//let outside the function*********************************************
+// let num=20;
+// function n() {
+//     console.log(num);
+// }
+// n()
+// console.log(num);
+//let inside the function***********************************************
+// function a(){
+//     let num=30;
+//     console.log(num);
+// }
+// a()
+// console.log(num); //ReferenceError: num is not defined
+// re-declare using let**************************************************
+// let a=20;
+// //let a=40; //SyntaxError: Identifier 'a' has already been declared
+// a=30; // valid
+// console.log(a);
+// we can declare the  variable with the same name in different blocks using the let*******************
+// let num =40;
+// console.log(num);
+// if(true){
+//     let num=20;
+//     console.log(num);
+// }
+// console.log(num);
+//#######################$$$$$$$$$$$$$$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+// 'var' vs 'let' with 'if() block' and 'function'
+// var number1=56;
+// if(true){
+// var number1=80;
+//     console.log(number1);
+// }
+// function fun(){
+//     console.log(number1);
+// }
+// fun();
+// console.log(number1);
+
+// let number1=56;
+// if(true){
+//     let number1=70;
+//     console.log(number1);
+// }
+// function fun(){
+//     console.log(number1);
+// }
+// fun();
+// console.log(number1);
+
+//******************* Const ************************** */
+// const pi;
+// console.log(pi); //SyntaxError: Missing initializer in const declaration
+
+//******************************************************* */
+// const pi=3.14;
+// const code=369;
+// let time="it will change";
+// console.log(" pi",pi,"\n code",code,"\n time :",time);
+// const pi=40;
+// console.log(pi); //we can't change - SyntaxError: Identifier 'pi' has already been declared
+
+//*************************************************************** */
+
 //Naming convention
-//var _myName ="shivani"; //_ allow
-//var _1my__Name="suman";// after _ number allow
-//var 1myName="shiny"; //SyntaxError: Invalid or unexpected token
-// var $myName="anshu"
-// console.log($myName); //$ allows but not allowed any special symbols
+// var _myName="shiny" //done
+//  var _1my__Name="sharma";
+//  var 1myName="ss";//SyntaxError: Invalid or unexpected token
+//  var $myName="shiny sharma"
+// console.log($myName);
+
+//****************************************************************************************************************** */
+
+
+
+
+
+
 
 
 

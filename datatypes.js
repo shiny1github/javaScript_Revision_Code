@@ -22,11 +22,35 @@ console.log(typeof("Register number",registerId));
 */
 
 
-//*********************************** Date - 24\06\2022 ***********************************************************
-
-
-
-
-
+//*********************************** Date - 29\06\2022 ***********************************************************
+//datatypes-------------------
+// number
+// String
+// Boolean
+// null
+// undefined
+// Symbol
+// BigInt
+//typeof() - used to know the data type of any variable*************************** */
+// console.log(10+"20");
+// console.log(typeof(10+"20")); //string
+// console.log(9-"5");
+// console.log(typeof(9-"5")); //number
+// console.log("shivani "+"suman");
+// console.log(typeof("shivani"+"suman")); //string
+// console.log(""+"");
+// console.log(typeof(""+"")); //string
+// console.log(""+0);
+// console.log(typeof(""+0)); //string
+// console.log("shiny"-"sharma"); //NaN -bug
+// console.log(typeof("shiny"-"sharma")); //number
+// console.log('boolean value ',true+true);
+// console.log(typeof(true+true)); //number
+// console.log(true+false);
+// console.log(typeof(true+false));//number
+// console.log(false+true);
+// console.log(typeof(false+true));//number
+// console.log(false-true);
+// console.log(typeof(false-true));//number
 
 
